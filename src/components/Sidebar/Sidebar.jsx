@@ -12,13 +12,24 @@ import {
     faSkype,
 } from '@fortawesome/free-brands-svg-icons';
 import {
-    faHome,
-    faUser,
+  faUser,
+  faHome,
     faEnvelope,
     faSuitcase,
     faBars,
     faClose,
-} from '@fortawesome/free-solid-svg-icons'
+    faEye,
+    faGear,
+    
+} from '@fortawesome/free-solid-svg-icons';
+// import {
+//   faUser,
+
+// } from '@fortawesome/free-regular-svg-icons';
+
+
+
+
 const Sidebar = () => {
     const [showNav, setShowNav] = useState(false);
     return (
@@ -33,7 +44,9 @@ const Sidebar = () => {
                     activeclassname="active"
                     to="/"
                     onClick={() => setShowNav(false)}>
-                    <FontAwesomeIcon icon={faHome} />
+                      <FontAwesomeIcon icon="fa-regular fa-house" />
+                     
+                    <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
                 <NavLink
                     activeclassname="active"
@@ -44,11 +57,19 @@ const Sidebar = () => {
                 </NavLink>
                 <NavLink
                     activeclassname="active"
+                    className="skills"
+                    to="/skills"
+                    onClick={() => setShowNav(false)}
+                  >
+                    <FontAwesomeIcon icon={faGear} color="#4d4d4e" />
+                </NavLink>
+                <NavLink
+                    activeclassname="active"
                     className="portfolio-link"
                     to="/portfolio"
                     onClick={() => setShowNav(false)}
-                >
-                    <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+                  >
+                    <FontAwesomeIcon icon={faEye} color="#4d4d4e" />
                 </NavLink>
                 <NavLink
                     activeclassname="active"
