@@ -1,13 +1,17 @@
 import { Outlet } from 'react-router-dom';
+import { Particle } from '../Particles/Particle';
 import Sidebar from '../Sidebar/Sidebar';
+
 import './Layout.scss';
 
 const Layout = () => {
     return (<>
         <div className="App">
+
             <Sidebar />
             <div className="page">
                 <span className="tags top-tags">&lt;body&gt;</span>
+                <Particle />
 
                 <Outlet />
                 <span className="tags bottom-tags">
