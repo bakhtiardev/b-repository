@@ -1,7 +1,7 @@
 {
     "particles": {
         "number": {
-            "value": 355,
+            "value": 400,
             "density": {
                 "enable": true,
                 "value_area": 789.1476416322727
@@ -26,7 +26,7 @@
             }
         },
         "opacity": {
-            "value": 0.48927153781200905,
+            "value": 0.5,
             "random": false,
             "anim": {
                 "enable": true,

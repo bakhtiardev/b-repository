@@ -9,9 +9,9 @@ const Layout = () => {
         <div className="App">
 
             <Sidebar />
+            <Particle />
             <div className="page">
                 <span className="tags top-tags">&lt;body&gt;</span>
-                <Particle />
 
                 <Outlet />
                 <span className="tags bottom-tags">
