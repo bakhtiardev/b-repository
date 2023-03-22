@@ -52,13 +52,22 @@ const Skill = () => {
                         <span class="tech-tag">Git</span>, etc.
                     </p>
                     <p >
-                        I'm quiet confident, naturally curious, and perpetually working on
-                        improving my chops one design problem at a time.
+
+                        I’m not a designer but I have a good sense of aesthetics, and
+                        experience in responsive, mobile-first web design. I put special
+                        effort into optimizing my code and providing the best user
+                        experience. I would love to give you any kind of support also after
+                        the project's completion. I guarantee a commitment during work on
+                        your project.
+
                     </p>
                     <p>
-                        If I need to define myself in one sentence that would be a family
-                        person, father of a beautiful daughter, a sports fanatic,
-                        photography enthusiast, and tech-obsessed!!!
+                        Visit my <a className="tech-tag" href="https://www.linkedin.com/in/bakhtiarhussain">LinkedIn </a>
+
+                             profile for more details. Also you can checkout my cv on this
+                            <a target="_blank" href="https://bobangajicsm.github.io/portfolio/assets/slobodan-gajic-cv.pdf">link</a>, or feel free to give a peek on some of my blog
+                            <a target="_blank" href="https://www.toptal.com/css/smacss-scalable-modular-architecture-css">posts</a>.
+                        
                     </p>
                 </div>
 
@@ -67,6 +76,8 @@ const Skill = () => {
             <div className="text-cloud">
                 <TextShpere />
             </div>
+
+
             <Loader type="line-scale" />
 
         </>
