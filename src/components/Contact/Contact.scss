@@ -67,6 +67,7 @@
     }
   
     .flat-button {
+      font-family: 'Helvetica Neue', sans-serif ;
       color: #ffd700;
       font-size: 11px;
       letter-spacing: 3px;
@@ -80,6 +81,11 @@
       float: right;
       text-align: center;
       margin-right: 10px;
+      &:hover{
+        cursor: pointer;
+        background-color: #ffd700;
+        color:black;
+      }
     }
   }
   
