@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Home from './components/Home/Home';
 import About from './components/About/About'
+import Contact from './components/Contact/Contact'
 // import { Particle } from './components/Particles/Particle'
 // import { Particle } from './components/Particles/Particle'
 function App() {
@@ -19,6 +20,8 @@ function App() {
 
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact/>} />
+
         </Route>
 
 
