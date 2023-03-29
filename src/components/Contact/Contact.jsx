@@ -54,6 +54,7 @@ const Contact = () => {
                             <ul>
                                 <li className="half">
                                     <input placeholder="Name" type="text" name="name" required />
+                                    <span class="focus-border"></span>
                                 </li>
                                 <li className="half">
                                     <input
@@ -62,6 +63,7 @@ const Contact = () => {
                                         name="email"
                                         required
                                     />
+                                      <span class="focus-border"></span>
                                 </li>
                                 <li>
                                     <input
@@ -70,6 +72,7 @@ const Contact = () => {
                                         name="subject"
                                         required
                                     />
+                                      <span class="focus-border"></span>
                                 </li>
                                 <li>
                                     <textarea
@@ -77,6 +80,7 @@ const Contact = () => {
                                         name="message"
                                         required
                                     ></textarea>
+                                      <span class="focus-border"></span>
                                 </li>
                                 <li className='btn-yellow'>
                                     <a><input type="submit" className="flat-button" value="SEND" /></a>

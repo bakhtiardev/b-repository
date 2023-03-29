@@ -11,13 +11,15 @@ h1 {
 }
 
 .text-zone {
-    width: 550px !important;
+    width: 530px !important;
 }
 
 .tech-tag {
     color: #ffd700;
+    background:none;
 }
 .text-cloud{
+    
     width: 50%;
     height: 100%;
     top: 0;
@@ -26,4 +28,8 @@ h1 {
     position: absolute;
     right: 0;
     overflow: hidden;
+}
+
+.text-cloud-container{
+    justify-content: flex-end;
 }
