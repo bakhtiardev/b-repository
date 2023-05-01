@@ -52,7 +52,16 @@
     border-bottom: 1px solid #ffd700;
 
   }
-
+  input[type='text']~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffd700;
+    transition: 0.4s;
+  }
+  
 
   textarea {
     width: 100%;
